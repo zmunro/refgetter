@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+    refgetter:
+        container_name: refgetter
+        volumes:
+            - ./refgetter/src:/refgetter
+        build:
+            context: ./refgetter
+            dockerfile: Dockerfile
+            target: dev
+
+
+
+

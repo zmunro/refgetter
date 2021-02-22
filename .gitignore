@@ -1,0 +1,4 @@
+.pytest_cache/
+refgetter/src/refgetter.egg-info
+refgetter/src/build/
+refgetter/src/dist/
